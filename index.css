@@ -1,0 +1,129 @@
+body {
+  background: #e0dede;
+  color: white;
+  padding: 0;
+  margin: 0;
+  font-family: "MuseoModerno", cursive;
+  color: #ffffff;
+  background: #ece9e9;
+  text-shadow: 3px 5px 2px #474747;
+}
+::placeholder {
+  color: white;
+}
+input {
+  border: none;
+  background-color: inherit;
+}
+input:focus {
+  outline: none;
+}
+
+.clicked {
+  color: red;
+  transition: color 0.5s ease-in-out;
+}
+
+.form,
+.greetings,
+.js-startApp {
+  display: none;
+}
+
+.js-userinfo {
+  margin-top: 45vh;
+}
+
+.js-name {
+  width: 100%;
+  text-align: center;
+  font-size: 50px;
+  font-weight: 400;
+  margin-bottom: 5vh;
+}
+.js-user {
+  display: flex;
+  justify-content: center;
+}
+.js-username {
+  border-bottom: 2px solid white;
+  width: 500px;
+  font-size: 40px;
+  color: inherit;
+  text-align: center;
+}
+
+.js-clock {
+  display: flex;
+  justify-content: center;
+  margin-top: 20vh;
+  font-size: 50px;
+  margin-bottom: -10vh;
+}
+.showing {
+  display: flex;
+  justify-content: center;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+.bgImage {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+  animation: fadeIn 0.5s linear;
+}
+
+.js-toDoAsk {
+  text-align: center;
+}
+.js-toDoInput {
+  display: flex;
+  justify-content: center;
+}
+
+.js-toDoInput input {
+  border-bottom: 2px solid white;
+  width: 500px;
+  font-size: 30px;
+  color: white;
+  text-align: center;
+}
+
+.js-weather {
+  height: 100px;
+  margin: 10px 20px 0 auto;
+  text-align: right;
+  min-width: 30px;
+  width: 200px;
+  font-size: 20px;
+  padding: 0 15px;
+  border-radius: 20px;
+}
+
+.js-mainFeature {
+  margin-top: -10vh;
+}
+
+.js-toDoList {
+  text-align: center;
+  list-style-type: none;
+}
+.js-toDoList button {
+  display: none;
+}
+.js-toDoList:hover button {
+  display: inline-block;
+  border: none;
+  background: none;
+}

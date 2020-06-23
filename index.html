@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="index.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Balsamiq+Sans:wght@700&family=MuseoModerno:wght@600&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <form action="" class="js-form form">
+      <div class="js-userinfo">
+        <div class="js-name">Hello, what's your name?</div>
+        <div class="js-user">
+          <input type="text" class="js-username" />
+        </div>
+      </div>
+    </form>
+
+    <div class="js-startApp">
+      <div class="js-weather"></div>
+      <div class="js-mainFeature">
+        <form class="js-toDoForm">
+          <div class="js-clock">
+            <h1>00:00</h1>
+          </div>
+          <h1 id="js-greetingbox" class="js-greetings greetings js-name"></h1>
+          <h1 class="js-toDoAsk">What is your main focus for today?</h1>
+          <div class="js-toDoInput">
+            <input type="text" placeholder="Write your to do list" />
+          </div>
+        </form>
+        <ul class="js-toDoList"></ul>
+      </div>
+    </div>
+
+    <script src="clock.js"></script>
+    <script src="greeting.js"></script>
+    <script src="todo.js"></script>
+    <script src="bg.js"></script>
+    <script src="weather.js"></script>
+  </body>
+</html>
